@@ -1,0 +1,18 @@
+FirstNumber = int(input("Please Enter Your 1st Number. "))
+SecondNumber = int(input("Please Enter Your 2nd Number. "))
+
+calculation = input("""Please Enter Your Preferred Value For:
+(Add: +, Subtract: -, Multiply: *, Divide: /)
+""")
+
+if calculation == "+":
+    print("Outcome: "+str(FirstNumber + SecondNumber))
+
+elif calculation == "-":
+    print("Outcome: "+str(FirstNumber - SecondNumber))
+
+elif calculation == "*":
+    print("Outcome: "+str(FirstNumber * SecondNumber))
+
+elif calculation == "/":
+    print("Outcome: "+str(FirstNumber / SecondNumber))
